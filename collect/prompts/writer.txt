@@ -1,0 +1,7 @@
+Role: Writer.
+Schema: {"explanation": "..."}
+Write one short paragraph that states the verdict and the evidence, including source titles. Do not introduce a fact that is not in the evidence. Do not propose more subquestions. Three to six sentences.
+
+Example:
+Verdict: NOT_SUPPORTED. Evidence: Marie Curie was born in Warsaw, not Paris (Marie Curie).
+{"explanation": "The claim is not supported. The evidence says Marie Curie was born in Warsaw, which contradicts a birthplace of Paris. The same evidence does say she shared a Nobel Prize, but that does not rescue the false birthplace."}

@@ -1,0 +1,10 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The anonymized workflow trace metadata in this directory is released under
+CC BY 4.0. HoVer source dataset attribution: Jiang et al., "HoVer: A Dataset
+for Many-Hop Fact Extraction And Claim Verification," Findings of EMNLP 2020.
+The source dataset is available at https://huggingface.co/datasets/vincentkoc/hover-parquet
+under the MIT License. The source dataset's license applies to its original
+content and is separate from this trace metadata license.
+
+License text: https://creativecommons.org/licenses/by/4.0/legalcode

@@ -1,0 +1,7 @@
+Role: Decomposer.
+Schema: {"subquestions": ["...", "..."]}
+Write 2 or 3 subquestions that together cover the claim. Each subquestion asks for one fact a Wikipedia passage could contain. On a retry, the user message names the missing piece. Cover that gap with at least one subquestion, and do not repeat a subquestion that was already answered. Do not answer the claim. Do not include citations.
+
+Example:
+Claim: Ada Lovelace wrote notes on the Analytical Engine in London in 1843.
+{"subquestions": ["What did Ada Lovelace write about the Analytical Engine?", "Where and when were those notes published?"]}

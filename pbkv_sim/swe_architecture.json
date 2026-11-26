@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "PBKV GraphSAGEHistSmall SWE reproduction v1",
+  "source_commit": "0213e132efd5c49eb736bc08d032d4207cdcedf6",
+  "source_sha256": "45b40021d4aafc74da079bb3766e222cd3184645c5489df2879d80982e14fae2",
+  "roles": ["Planner", "Coder", "Committer", "Tester", "Analyzer", "END"],
+  "emb_dim": 2048,
+  "max_hist": 32,
+  "future_k": 3,
+  "cfg": {
+    "d_node": 32,
+    "text_proj_dim": 80,
+    "head_dims": [128],
+    "dropout": 0.1,
+    "use_attn": true,
+    "use_bidir": false
+  },
+  "graph_rule": "train-only forward non-END transitions, row normalized; self-loop at sinks",
+  "history_rule": "prior calls only, truncated to the last 32, no current call in history",
+  "hidden_rule": "post-norm last prefill token, never generated output or tool result from this call",
+  "target_rule": "future calls 1..3; END once; ignore positions after END",
+  "loss": "cross_entropy over valid sample-horizon pairs; ignore_index=-100",
+  "hyperparameter_status": "project reproduction choices, not unpublished author settings"
+}
