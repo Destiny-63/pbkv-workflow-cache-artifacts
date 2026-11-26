@@ -1,0 +1,9 @@
+The derived, anonymized workflow trace metadata in this directory is released
+under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
+
+This license covers the trace metadata contributed for this release. It does
+not relicense the SWE-Bench Verified benchmark or any third-party repositories
+referenced by the benchmark. This directory does not include issue text,
+repository source code, generated conversations, or test output.
+
+License text: https://creativecommons.org/licenses/by/4.0/legalcode
